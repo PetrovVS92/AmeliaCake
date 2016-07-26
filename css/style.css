@@ -1,0 +1,304 @@
+// .page-header {
+
+// 	background-color: #1D2631;
+// }
+// .page-header__bg {
+	
+// }
+// .page-header__borger {
+// }
+// svg .borger {
+// }
+// .download {
+// 	padding-bottom: 25px;
+// 	text-align: center;
+// 	margin-bottom: 30px;
+// }
+// .slogan {
+// 	padding: 15px 50px 340px;
+// 	margin: 0;
+// 	font-size: 24px;
+// 	font-family: "Open Sans", sans-serif;
+// 	color: rgba(255,255,255,.9);
+// 	font-weight: lighter;
+// }
+// .download__btn-container {
+// 	margin-top: -31px;
+// 	border-top: 1px solid #1D2631;
+// 	background-color: #1D2631;	
+// }
+// .download__setup-btn {
+// 	display: block;
+// 	margin: 28px auto 27px;
+// 	width: 280px;
+// 	height: 55px;
+// 	font-size: 18px;
+// 	line-height: 49px;
+// 	text-align: center;
+// 	font-weight: bold;
+// 	color: #fff;
+// 	background-color: #1D2631;
+// 	border: 3px solid #fff;
+// 	border-radius: 26px;
+// }
+// .download__android-logo {
+// 	margin: 0 36px;
+// }
+// .download__comment {
+// 	color: rgba(255,255,255,.6);
+// 	font-size: 14px;
+// 	line-height: 24px;
+// 	margin: 25px 20px 0;
+// }
+// .promo {
+// 	text-align: center;
+// 	margin-bottom: 45px;
+// }
+// .promo__bg {
+// 	background: #f2f2f2;
+// }
+// .promo__question {
+// 	margin-bottom: 30px;
+// 	font-size: 24px;
+// 	line-height: 31px;
+// 	color: #283645;
+// 	font-weight: 100;
+// }
+// .promo__delimiter-triangle {
+//   	border-right : 160px solid #f2f2f2;
+//   	border-bottom : 13px solid #f2f2f2;
+//  	border-left : 160px solid #fff;
+//   	border-top : 13px solid #fff;
+//   	margin-bottom: 50px;
+//  }
+// .promo__title {
+// 	margin-top: 0;
+// 	margin-bottom: 10px;
+// 	padding: 0;
+// 	font-size: 24px;
+// 	font-weight: bold;	
+// }
+// .promo__item {
+// 	margin: 0 20px 30px;
+// 	padding: 0;
+// 	font-size: 14px;
+// 	line-height: 24px;
+// 	color: #283645;
+// }
+// .promo__hello-img {
+// 	height: 278px;
+// 	background: url("../img/screen-1-3.png") center bottom no-repeat;
+// }
+// .reviews {
+// 	text-align: center;
+// }
+// .reviews__title {
+// 	font-size: 18px;
+// 	line-height: 24px;
+// }
+// .reviews__item {
+// 	margin-bottom: 35px;
+// 	padding: 0 20px;
+// 	font-size: 14px;
+// 	line-height: 24px;
+// 	color: #283645;
+// }
+// .slider-reviews {
+// 	margin: 0;
+// 	margin-bottom: 40px;
+// 	padding: 0;
+// 	list-style: none;
+// 	font-size: 0;
+// 	text-align: center;
+// }
+// .slider-reviews__item {
+// 	display: inline-block;
+// 	vertical-align: middle;
+// 	margin-right: 20px;
+// 	border: 3px solid #bec2c7;
+// 	border-radius: 50%;
+// }
+// .slider-reviews li:last-child {
+// 	margin-right: 0px;
+// }
+// .slider-reviews__item-active {
+// 	width: 12px;
+// 	height: 12px;
+// 	border-color: #283645;
+// }
+// .price {
+// 	position: relative;
+// 	overflow: hidden;
+// 	height: 465px;
+// 	background-color: #f2f2f2;
+// }
+// .price__delimiter-triangle {
+//     border-right : 160px solid #f2f2f2;
+//     border-bottom : 13px solid #f2f2f2;
+//     border-left : 160px solid #fff;
+//     border-top : 13px solid #fff;
+// }
+// .price__table {
+// 	position: absolute;
+// 	margin-top: 65px;
+// 	left: -260px;
+// 	width: 840px;
+// 	border-collapse: collapse;
+// 	text-transform: uppercase;
+// }
+// .price__table th {
+// 	padding-top: 17px;
+// 	background: #283645;
+// 	color: #fff;
+// 	border: 2px solid #f2f2f2
+// }
+// .price__table th b {
+// 	font-size: 18px;
+// 	line-height: 30px;
+// 	font-weight: bold;
+// }
+// .price__table th p {
+// 	margin: 0;
+// 	padding-bottom: 18px;	
+// 	font-size: 24px;
+// 	line-height: 30px;
+// 	font-weight: 100;
+// }
+// .price__table td {
+// 	position: relative;
+// 	width: 280px;
+// 	padding: 25px 23px;
+// 	border: 2px solid #e5e5e5;
+// 	font-size: 14px;
+// 	line-height: 14px;
+// 	color: #283645;
+// 	background-color: #fff;
+// }
+// svg .check-mark {
+// 	fill: #3dc644;
+// }
+// svg .cross {
+// 	fill: #f25b26;
+// }
+// .price__table svg {
+// 	position: absolute;
+// 	right: 18px;
+// 	top: 19px;
+// }
+// .slider {
+// 	position: relative;
+// 	padding-top: 395px;
+// 	padding-bottom: 40px;
+// 	bottom: 0;
+// }
+// .slider-price {
+// 	margin: 0;
+// 	padding: 0; 
+// 	list-style: none;
+// 	font-size: 0;
+// 	text-align: center;
+// }
+// .slider-price li {
+// 	display: inline-block;
+// 	vertical-align: middle;
+// 	margin-right: 20px;
+// 	border: 3px solid #bec2c7;
+// 	border-radius: 50%;
+// }
+// .slider-price li:last-child {
+// 	margin-right: 0px;
+// }
+// .slider-price .slider-price__item-active {
+// 	width: 12px;
+// 	height: 12px;
+// 	border-color: #283645;
+// 	background-color: #fff;
+// }
+// .contacts {
+// 	text-align: center;
+// 	font-size: 24px;
+// 	line-height: 30px;
+// 	color: #d22856;
+// 	font-weight: 300
+// }
+// .contacts__tagline {
+// 	font-size: 24px;
+// 	line-height: 30px;
+// 	color: #283645;
+// 	font-weight: 300;
+// }
+// .contacts b {
+// 	font-size: 18px;
+// 	line-height: 24px;
+// 	color: #283645;
+// 	font-weight: bold;
+// }
+// .map {
+// 	height: 200px;
+// 	background: url("../img/map.png") no-repeat bottom;
+// }
+// .map-triangle {
+// 	border-right: 160px solid transparent;
+// 	border-left: 160px solid transparent;
+// 	border-bottom: 35px solid transparent;
+// 	border-top: 35px solid #fff;
+// }
+
+/* вылазящие окна */
+// .menu {
+// 	display: none;
+// 	position: absolute;
+// 	top: 0;
+// 	min-width: 320px;
+// 	background-color: #283645;
+// }
+// .menu__header {
+// 	padding: 20px;
+// 	border-bottom: 1px solid #030001;
+// }
+// .menu__close {
+// 	float: right;
+// 	width: 23px;
+// } 
+// .menu__close-cross {
+// 	fill: #fff;
+// }
+// .menu__items ul {
+// 	margin: 0;
+// 	padding: 0; 
+// 	list-style: none;
+// 	font-size: 0;
+// 	text-align: center;
+// }
+// .menu__items li {
+// 	text-align: center;
+// 	border-top: 1px solid #485461;
+// 	border-bottom: 1px solid #030001;
+// }
+// .menu__items a {
+// 	display: block;
+// 	padding: 22px 0;
+// 	text-decoration: none;
+// 	font-size: 18px;
+// 	font-weight: bold;
+// 	line-height: 18px;
+// 	color: #fff;
+// 	text-transform: uppercase;
+// }
+
+
+
+
+/* скрытые блоки в начальном ХТМЛ */
+.pink-logo2,
+.pink-logo3,
+.main-menu, 
+.study,
+.price__table-700,
+.main-footer,
+.reviews__title span {
+	display: none;
+}
+
+
+
