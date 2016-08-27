@@ -15,11 +15,39 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
         <link href="css/style.css" rel="stylesheet">
         <link href="fonts/Gabriola.ttf" rel='stylesheet' type='text/css'>
-        <link href="fonts/Beryozki.ttf" rel='stylesheet' type='text/css'>
+        <link href="fonts/Highliner.otf" rel='stylesheet' type='text/css'>
+        <link href="fonts/fontawesome-webfont.ttf" rel='stylesheet' type='text/css'>
     </head>
   <body>
+    <div class="container">
+        <header>
+            <div class="col-xs-4 header-col header-col-phone">
+                <b class="header-phone">+375-44-45-48-715</b><br>
+                <a class="btn btn-phone">
+                    <span class="btn-phone-text">Нажмите,<br>и я перезвоню</span>
+                    <span class="btn-phone-icon"></span>
+                </a>
+            </div>
+            <div class="col-xs-4 header-col">
+                <img class="logo" alt="Logo" src="img/LOGO-3.png">
+            </div>
+            <div class="col-xs-4 header-col col-social-icon">
+                    <a class="btn btn-social-icon btn-xs btn-facebook">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-xs btn-instagram">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                    <a class="btn btn-social-icon btn-xs btn-vk">
+                        <span class="fa fa-vk"></span>
+                    </a>
+            </div>
+        </header>
+    </div>
     <div class="wrapper-menu">
         <div class="container ">
             <nav class="navbar navbar-default">
@@ -49,9 +77,9 @@
             </nav>
         </div><!-- /.container -->
     </div>
-
     <div class="container">
         <div class="carousel slide" id="carousel-example-generic" data-ride="carousel">
+
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -61,7 +89,7 @@
             <li data-target="#carousel-example-generic" data-slide-to="4"></li>
             <li data-target="#carousel-example-generic" data-slide-to="5"></li>
           </ol>
-
+        
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
@@ -114,23 +142,27 @@
         </div>
     </div>
     <div class="container">
-        <div class="wrapper-promo clearfix">
-            <div class="promo-text">
-                <h1>Авторская кондитерская "Amelia"</h1>
-                <h2>Торты, кексы, печенья, пирожные
-                    в Минске на заказ
-                </h2>
-                <!-- <p class="promo-text__item">Ежедневно мы делаем удивительные торты и кексы, каждый из которых выполнен из лучших ингредиентов. Мы готовим на заказ, небольшими партиями, чтобы на Вашем празднике была самая свежая продукция. Все декорируется вручную профессионалами своего дела, чтобы каждый торт был эксклюзивным. Мы не ищем коротких путей, не используем странных добавок и консервантов. Мы дорожим своей репутацией. Наша продукция не просто красивая - наша продукция очень вкусная. Закажите у нас невероятно вкусный совершенно восхитительный творческий торт или набор кексов, и мы доставим заказ прямо к Вашей двери. Кто-то не любит кексы?</p> -->
+        <div class="order-wrapper clearfix">
+            <div class="col-xs-6 order-column">
+                <!-- <div class="col-xs-6"> -->
+                    <h2>Пришлите нам фото торта или придумайте свой вариант оформления</h2>
+                <!-- </div> -->
+                <!-- <div class="col-xs-6"> -->
+                    <div class="order-form">
+                        <p class="order-form__quest">Закажите у нас невероятно вкусный, совершенно восхитительный творческий торт, и мы доставим заказ прямо к Вашей двери</p>
+                        <form class="order-form__wrapper-input" action="#" method="post">
+                            <input class="order-form__input" value="" id="posName2" placeholder="Введите имя" type="text">
+                            <input class="order-form__input" value="" id="posPhone2" placeholder="Введите телефон" type="tel">
+        <!--                     <input class="ip" id="ip" value="37.214.123.205" name="ip" type="text"> -->
+                            <button style="visibility: visible; animation-name: pulse;" class="btn-order" id="send2" onclick="hidd()"><span class="btn-order__txt">Сделать заказ</span></button>
+                        </form>
+                    </div>
+                <!-- </div> -->
             </div>
-            <div class="order-form">
-                <p class="order-form__quest">Закажите у нас невероятно вкусный, совершенно восхитительный творческий торт, и мы доставим заказ прямо к Вашей двери</p>
-                <form class="order-form__wrapper-input" action="#" method="post">
-                    <input class="order-form__input" value="" id="posName2" placeholder="Введите имя" type="text">
-                    <input class="order-form__input" value="" id="posPhone2" placeholder="Введите телефон" type="tel">
-<!--                     <input class="ip" id="ip" value="37.214.123.205" name="ip" type="text"> -->
-                    <button style="visibility: visible; animation-name: pulse;" class="btn-order" id="send2" onclick="hidd()"><span class="btn-order__txt">Сделать заказ</span></button>
-                </form>
+            <div class="col-xs-6 order-column">
+                
             </div>
+            
         </div>
     </div>
 <!--       <div class="row">
@@ -154,3 +186,5 @@
     <script src="js/bootstrap.js"></script>
   </body>
 </html>
+
+<!-- <p class="promo-text__item">Ежедневно мы делаем удивительные торты и кексы, каждый из которых выполнен из лучших ингредиентов. Мы готовим на заказ, небольшими партиями, чтобы на Вашем празднике была самая свежая продукция. Все декорируется вручную профессионалами своего дела, чтобы каждый торт был эксклюзивным. Мы не ищем коротких путей, не используем странных добавок и консервантов. Мы дорожим своей репутацией. Наша продукция не просто красивая - наша продукция очень вкусная. Закажите у нас невероятно вкусный совершенно восхитительный творческий торт или набор кексов, и мы доставим заказ прямо к Вашей двери. Кто-то не любит кексы?</p> -->
