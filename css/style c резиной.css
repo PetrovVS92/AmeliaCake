@@ -87,7 +87,7 @@ body {
 		display: none;
 	}
 }
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 767px) {
 	.logo {
 		width: 50%;
 	}
@@ -126,6 +126,33 @@ body {
 		padding-top: 15px;
 	}
 }
+@media (max-width: 438px) {
+	.col-social-icon {
+		width: 100%;
+		float: none;
+	}
+	.header-col-phone {
+		width: 100%;
+		float: none;
+	}
+	.header-phone {
+		background-color: rgba(120,109,98,.5);
+		padding: 0% 4%;
+		font-size: 50px;
+		height: auto;
+    	width: 240px;
+    	margin: 0 auto;
+	}
+	.header-col {
+		padding-top: 5px;
+	}
+	.header-col-logo {
+		padding-top: 10px;
+	}
+	.header-col-phone {
+		height: 50px;
+	}
+}
 .col-social-icon:active:hover:focus {
 	background-color: rgba(179,145,107,.8);
 }
@@ -161,10 +188,16 @@ body {
     	width: 8vw;
 	}
 }
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 438px) and (max-width: 767px) {
 	.btn-social-icon.btn-xs {
 		height: 9.5vw;
     	width: 9.5vw;
+	}
+}
+@media (min-width: 0px) and (max-width: 437px) {
+	.btn-social-icon.btn-xs {
+		height: 45px;
+    	width: 45px;
 	}
 }
 .btn-social-icon.btn-xs {
@@ -187,7 +220,7 @@ body {
 	    font-size: 5vw;
 	}
 }
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 438px) and (max-width: 767px) {
 	.btn-social-icon.btn-xs > :first-child {
 	    line-height: 9.5vw;
 	    font-size: 5.7vw;
@@ -197,6 +230,15 @@ body {
 		text-align: center;
 		font-size: 60px;
 		line-height: 50px;
+	}
+}
+@media (min-width: 0px) and (max-width: 437px) {
+	.btn-social-icon.btn-xs > :first-child {
+	    line-height: 45px;
+	    font-size: 28px;
+	}
+	.btn-social-icon.btn-viber {
+		margin-right: 0;
 	}
 }
 @media (min-width: 768px) {
@@ -355,7 +397,7 @@ h2 {
 	}
 }
 
-@media (min-width: 480px) and (max-width: 900px) {
+@media (min-width: 0px) and (max-width: 900px) {
 	.order-wrapper {
 		width: 100%;
 	}
@@ -386,7 +428,6 @@ h2 {
     -o-transition: background-color 1s ease;
     transition: background-color 1s ease;
 }
-
 @media (max-width: 930px){
 	.feature img {
 		height: auto;
@@ -433,7 +474,7 @@ h2 {
     background-color: rgba(255,255,255,0.6);
 	transition: transform 0.6s, padding 0.9s;
 }
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 767px) {
 	.teaser h2 {
 	    font-size: 21vw;
 	}
@@ -462,7 +503,7 @@ h2 {
 .feature__filling:hover .teaser h2 {
 	transform: translateY(-70%);
 }
-@media (min-width: 480px) and (max-width: 768px) {
+@media (max-width: 768px) {
 	.feature__filling:hover .teaser h2 {
 		transform: translateY(-80%);
 	}
@@ -477,7 +518,7 @@ figcaption {
     transition: width 0.55s;
 }
 
-@media (min-width: 480px) and (max-width: 899px) {
+@media (max-width: 899px) {
 	figcaption {
 		width: calc(100% - 25px);
 	}
@@ -513,7 +554,7 @@ figcaption:hover {
 		margin-top: 19vw;
 	}
 }
-@media (min-width: 480px) and (max-width: 900px) {
+@media (max-width: 900px) {
 	.feature__filling .caption svg {
 		margin-top: 22vw;
 	}
@@ -541,7 +582,7 @@ figcaption:hover {
     -o-transition: opacity 0.55s,-o-transform 0.6s;
     transition: opacity 0.55s,transform 0.6s;
 }
-@media (min-width: 480px) and (max-width: 900px) {
+@media (min-width: 0px) and (max-width: 900px) {
 	.caption h4 {
 		font-size: 10vw;
 	}
@@ -556,7 +597,7 @@ figcaption:hover {
     -o-transform: translate3d(0, 80px, 0) scale(1);
     transform: translate3d(0, 80px, 0) scale(1);
 }
-@media (min-width: 480px) and (max-width: 900px) {
+@media (min-width: 0px) and (max-width: 900px) {
 	.feature__filling:hover h4 {
 	    opacity: 1;
 	    -webkit-transform: translate3d(0, 60px, 0) scale(1);
@@ -621,7 +662,7 @@ figcaption:hover {
 	font-size: 150px;
 	line-height: 90px;
 }
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 767px) {
 	.to__order h3 {
 		text-align: center;
 		font-size: 15vw;
@@ -635,7 +676,7 @@ figcaption:hover {
     left: 60px;
     top: 40px;
 }
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 767px) {
 	.to__order img {
 	    top: calc(50% - 80px);
 	}
@@ -646,7 +687,7 @@ figcaption:hover {
 	margin-bottom: 60px;
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 767px) {
 	.column-order {
 		height: auto;
 		margin-bottom: 0px;
@@ -677,7 +718,7 @@ figcaption:hover {
     padding: 0;
     font-size: 80px;
 }
-@media (min-width: 480px) and (max-width: 980px) {
+@media (min-width: 0px) and (max-width: 980px) {
     .order-number {
     	font-size: 8vw;
     }
@@ -689,14 +730,14 @@ figcaption:hover {
 	font-size: 80px;
 	line-height: .6;
 }
-@media (min-width: 480px) and (max-width: 900px) {
+@media (min-width: 0px) and (max-width: 900px) {
 	.column-order span {
 		font-size: 9vw;
 		line-height: .6;
 	}
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 767px) {
 	.order-number {
 	    border: none;
 	    background-color: transparent;
@@ -733,7 +774,7 @@ figcaption:hover {
 .column-order button span {
 	font-size: 65px;
 }
-@media (min-width: 480px) and (max-width: 799px) {
+@media (min-width: 0px) and (max-width: 799px) {
 	.column-order button span {
 		font-size: 9.5vw;
 	}
